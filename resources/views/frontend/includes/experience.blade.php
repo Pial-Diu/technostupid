@@ -8,41 +8,41 @@
                     <div class="timeline">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
-                                  <span>2019</span>
+                                  <span>2022</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                                  <h3><span>Sr. Software Engineer</span><small>Easital Technologies</small></h3>
+                                  <p>Lead the Backend team building a super-app with millions of potential active users.</p>
                              </div>
                         </div>
 
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2018</span>
+                                <span>2021</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
+                                <h3><span>Sr. Software Engineer</span><small>Sheba.xyz</small></h3>
+                                <p>Worked as Team Lead of the Backend Team. A very large scale project with thousands of active users. Worked with AWS and other cloud technologies.</p>
                             </div>
                         </div>
 
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2016</span>
+                                <span>2019</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>UI Freelancer</h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                <h3><span>Software Engineer <small>Webable</small></h3>
+                                <p>Worked on real lift data intensive projects with thousands of active users. Started working with Vue.js alongside Laravel.</p>
                             </div>
                         </div>
                         
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2014</span>
+                                <span>2017</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                                <h3><span>Jr. Software Engineer<small>Prochito ITS</small></h3>
+                                <p>Workded as a jr. Software engineer. Mostly work with web technologies</p>
                             </div>
                         </div>
 
@@ -55,31 +55,31 @@
                     <div class="timeline">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
-                                  <span>2017</span>
+                                  <span>2016</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
-                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
+                                  <h3><span>B.Sc</span><small>Daffodil International University</small></h3>
+                                  <p>Wrote my first code. Participated and won many competitive programming contests.</p>
                              </div>
                         </div>
 
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2015</span>
+                                <span>2011</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
-                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
+                                <h3><span>HSC</span><small>Syed. Hatem ALi college</small></h3>
+                                <p>My college life passed in the blink of an eye.</p>
                             </div>
                         </div>
                         
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
-                                <span>2013</span>
+                                <span>2009</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
-                                <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
+                                <h3><span>SSC</span><small>Barisah Zilla School</small></h3>
+                                <p>One of the oldest and prestigious schools of Bangladesh. Made some friends for lifetime.</p>
                             </div>
                         </div>
 

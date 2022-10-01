@@ -14,8 +14,11 @@
                 <!-- <li class="nav-item">
                     <a href="#intro" class="nav-link"><span data-hover="Intro">Intro</span></a>
                 </li> -->
+                <!-- <li class="nav-item">
+                    <a href="#about" class="nav-link"><span data-hover="About Me">About Me</span></a>
+                </li> -->
                 <li class="nav-item">
-                    <a href="#project" class="nav-link"><span data-hover="Projects">About Me</span></a>
+                    <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                 </li>
                 <li class="nav-item">
                     <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
@@ -25,7 +28,7 @@
                 </li>
             </ul>
 
-            <ul class="navbar-nav ml-lg-auto">
+            <ul class="navbar-nav ml-lg-auto" onclick="colorMode()">
                 <div class="ml-lg-4">
                     <div class="color-mode d-lg-flex justify-content-center align-items-center">
                     <i class="color-mode-icon"></i>

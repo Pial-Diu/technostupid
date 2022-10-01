@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="/frontend/css/owl.theme.default.min.css">
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="/frontend/css/tooplate-style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     
   </head>
   <body>
@@ -29,7 +31,7 @@
     @include('frontend.includes.intro')
 
 
-     {{-- @include('frontend.includes.about') --}}
+    {{-- @include('frontend.includes.about') --}}
     <!-- PROJECTS -->
     
     @include('frontend.includes.projects')
@@ -53,4 +55,20 @@
     <script src="/frontend/js/custom.js"></script>
 
   </body>
+
+  <script>
+    if(localStorage.getItem('colormode'))
+    {
+        $('.color-mode-icon').toggleClass('active')
+        $('body').toggleClass('dark-mode')
+    }
+    function colorMode()
+    {
+      localStorage.getItem('colormode') ? localStorage.removeItem('colormode') : localStorage.setItem('colormode',true);
+    }
+
+  </script>
+
+
+
 </html>

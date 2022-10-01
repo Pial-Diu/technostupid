@@ -1,12 +1,14 @@
 
-<div class="wrapper" style="width: 60%">
+<div class="wrapper" style="width: 60%" id="about">
   <div class="name">
-    Emily Sloan
+    Mahady Hasan Pial
   </div>
   <div class="content">
     <h2>About me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repudiandae rerum dolores voluptate quod tempora amet eos repellendus odio voluptates quibusdam sequi unde sint aliquam, esse repellat facilis consectetur. Rem.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laborum quasi, deserunt nihil fugit, fuga, reiciendis cupiditate vitae distinctio, labore commodi nam ullam minima obcaecati nostrum? Est consequatur, tempora ex!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nisi labore consequuntur,</p>
+    <p>Greetings! I'm Mahady, frineds call me Pial.</p>
+    <p>I'm a software engineer based in Dhaka. I have been working in Tech and building stuff for the web for about 6 years. I like building web applications and designing backends for Mobile apps.</p>
+	<p>I love traveling, playing the guitar and watching documentries. Always ready to help others and contribute in the programming community. Checkout my <a href="https://github.com/Pial-Diu">github</a> repos and feel free to contribute or use my projects.</p>
+	<p>Feel free to contact me and don't forget to leave a feedback. Cheers!!</p>
    
     <!-- <div class="links">
        <a href="http://blog.ajduke.in" target="_blank">http://blog.ajduke.in</a>
@@ -43,6 +45,10 @@
         https://beeda-primary.s3.us-east-2.amazonaws.com/public/uploads/all/pial.jpg);
 	 background-position: 90% 50%;
 	 box-shadow: 0 5px 5px rgba(55, 55, 55, 0.4);
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
  .wrapper .name {
 	 position: absolute;

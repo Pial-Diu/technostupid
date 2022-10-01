@@ -9,35 +9,35 @@
                     </div>
 
                     <div class="owl-carousel owl-theme">
-                    <div class="item">
+                    <div class="item"  style="width: 90%; padding-left:5%">
                         <div class="project-info">
-                        <img src="/frontend/images/project/project-image01.png" class="img-fluid" alt="project image">
+                        <img src="/frontend/images/project/sheba.png" class="img-fluid" alt="project image">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item" style="width: 90%; padding-left:5%">
                         <div class="project-info">
-                        <img src="/frontend/images/project/project-image02.png" class="img-fluid" alt="project image">
+                        <img src="/frontend/images/project/step.png" class="img-fluid" alt="project image">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item" style="width: 90%; padding-left:5%">
                         <div class="project-info">
-                        <img src="/frontend/images/project/project-image03.png" class="img-fluid" alt="project image">
+                        <img src="/frontend/images/project/beedamall.png" class="img-fluid" alt="project image">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item" style="width: 90%; padding-left:5%">
                         <div class="project-info">
-                        <img src="/frontend/images/project/project-image04.png" class="img-fluid" alt="project image">
+                        <img src="/frontend/images/project/amujamu.png" class="img-fluid" alt="project image">
                         </div>
                     </div>
 
-                    <div class="item">
+                    <!-- <div class="item">
                         <div class="project-info">
                         <img src="/frontend/images/project/project-image05.png" class="img-fluid" alt="project image">
                         </div>
-                    </div>
+                    </div> -->
                     </div>
 
                 </div>

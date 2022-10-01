@@ -17,7 +17,7 @@
                     <p>I'm a full-stack web developer / Software Engineer based in Dhaka, Bangladesh specializing in building exceptional, high-quality websites and applications.</p>
                     
                     <div class="custom-btn-group mt-4">
-                        <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                        <a href="/doc/Md. Mahady_Hasan.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                         <a href="mailto:pial.coder@gmail.com" class="btn custom-btn custom-btn-bg custom-btn-link">Get in touch</a>
                     </div>
                 </div>
