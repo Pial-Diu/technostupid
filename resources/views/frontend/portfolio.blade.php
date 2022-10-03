@@ -19,9 +19,16 @@
     <link rel="stylesheet" href="/frontend/css/tooplate-style.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    
+    <link rel="preload" href="http://davidwalsh.name/wp-content/themes/walshbook3/images/sprite.png" />
+
   </head>
   <body>
+
+  <div class="preload">
+<img class="centered" src="/frontend/images/animation_640_l8t8gu3s.gif">
+</div>
+
+<div class="content">
 
     <!-- MENU -->
    @include('frontend.includes.header')
@@ -44,7 +51,7 @@
 
     <!-- FOOTER -->
     @include('frontend.includes.footer')
-
+    </div>
     <script src="/frontend/js/jquery-3.3.1.min.js"></script>
     <script src="/frontend/js/popper.min.js"></script>
     <script src="/frontend/js/bootstrap.min.js"></script>
@@ -56,6 +63,24 @@
 
   </body>
 
+  <style>
+    .content {display:none;}
+.preload { 
+    width:100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+  </style>
+
   <script>
     if(localStorage.getItem('colormode'))
     {
@@ -66,7 +91,12 @@
     {
       localStorage.getItem('colormode') ? localStorage.removeItem('colormode') : localStorage.setItem('colormode',true);
     }
-
+    
+    $(function() {
+    $(".preload").fadeOut(2500, function() {
+            $(".content").fadeIn(500);        
+        });
+    });
   </script>
 
 
