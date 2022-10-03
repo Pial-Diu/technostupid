@@ -8,7 +8,8 @@
 			<img src="https://beeda-primary.s3.us-east-2.amazonaws.com/public/uploads/all/pial.jpg" id="profile-pic" class="img-fluid" alt="Md. Mahady Hasan Pial">
             </div>
 
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5"
+					style="border-bottom-left-radius: 10px !important;border-bottom-right-radius: 10px;">
                 <div class="contact-info-item">
 					<i><p>"Whosoever is delighted in solitude is either a wild beast or a God."</p></i>
                 </div>

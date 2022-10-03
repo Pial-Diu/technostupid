@@ -25,7 +25,8 @@
 
             <div class="col-lg-4 col-md-12 col-12">
                 <div class="about-image svg">
-                    <img src="/frontend/images/2842680.png" class="img-fluid" alt="svg image">
+                    <!-- <img src="/frontend/images/2842680.png" class="img-fluid" alt="svg image"> -->
+                    <img  style="border-radius: 10px 60px !important" src="/frontend/images/95116-coder.gif" class="img-fluid" alt="svg image">
                 </div>
             </div>
 
