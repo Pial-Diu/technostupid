@@ -31,7 +31,7 @@
     @include('frontend.includes.intro')
 
 
-    {{-- @include('frontend.includes.about') --}}
+   @include('frontend.includes.about')
     <!-- PROJECTS -->
     
     @include('frontend.includes.projects')

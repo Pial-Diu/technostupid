@@ -1,126 +1,94 @@
+<section class="contact py-5" id="about-me">
+      <div class="container">
+	  <!-- <h2 class="text-centre">Things I've built for the web</h2> -->
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12" style="border-radius: 100px !important">
+            <div class="google-map w-100 imgctr">
+			<img src="https://beeda-primary.s3.us-east-2.amazonaws.com/public/uploads/all/pial.jpg" id="profile-pic" class="img-fluid" alt="Md. Mahady Hasan Pial">
+            </div>
 
-<div class="wrapper" style="width: 60%" id="about">
-  <div class="name">
-    Mahady Hasan Pial
-  </div>
-  <div class="content">
-    <h2>About me</h2>
-    <p>Greetings! I'm Mahady, frineds call me Pial.</p>
-    <p>I'm a software engineer based in Dhaka. I have been working in Tech and building stuff for the web for about 6 years. I like building web applications and designing backends for Mobile apps.</p>
-	<p>I love traveling, playing the guitar and watching documentries. Always ready to help others and contribute in the programming community. Checkout my <a href="https://github.com/Pial-Diu">github</a> repos and feel free to contribute or use my projects.</p>
-	<p>Feel free to contact me and don't forget to leave a feedback. Cheers!!</p>
-   
-    <!-- <div class="links">
-       <a href="http://blog.ajduke.in" target="_blank">http://blog.ajduke.in</a>
-      <a href="https://codepen.io/ajduke" target="_blank">https://codepen.io/ajduke</a>
-      <a href="" class="location">Mumbai, India</a>
-    </div> -->
-    
-    <!-- <div class="stats">
-      <div class="block">
-        <div class="num">350</div>
-        <span class="text">Followers</span>
-      </div>
-      <div class="block">
-        <div class="num">245</div>
-        <span class="text">Following</span>
-      </div>
-      <div class="block">
-        <div class="num">24</div>
-        <span class="text">Pens</span>
-      </div>
-    </div> -->
-  
-  </div>
-</div>
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+					<i><p>"Whosoever is delighted in solitude is either a wild beast or a God."</p></i>
+                </div>
+            </div>
+          </div>
 
-<style>
+          <div class="col-lg-6 col-12">
+            <div class="contact-form py-1">
+              <p class="mb-4">Here are a few technologies I work with:</p>
 
- .wrapper {
-	 position: relative;
-	 width: 850px;
-	 height: 500px;
-	 margin: 100px auto;
-	 background: url(
-        https://beeda-primary.s3.us-east-2.amazonaws.com/public/uploads/all/pial.jpg);
-	 background-position: 90% 50%;
-	 box-shadow: 0 5px 5px rgba(55, 55, 55, 0.4);
-	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
- .wrapper .name {
-	 position: absolute;
-	 bottom: 10px;
-	 left: 20px;
-	 color: #fff;
-	 font-size: 55px;
-	 word-wrap: wrap;
-	 padding: 10px;
-	 transition: all 0.4s ease-in-out;
-}
- .wrapper .name:hover {
-	 cursor: default;
-	 transform: translateX(-20px);
-}
- .wrapper .name:first-letter {
-	 font-size: 100px;
-}
- .content {
-	 position: absolute;
-	 right: 20px;
-	 top: -50px;
-	 width: 400px;
-	 height: 120%;
-	 padding: 30px;
-	 background: #fff;
-	 box-shadow: 0 0 4px rgba(55, 55, 55, 0.3);
-	 border-radius: 5px;
-}
- .content h2 {
-	 color: #444;
-	 font-size: 26px;
-}
- .content p {
-	 color: #999;
-}
- .content .links {
-	 margin: 30px 0px 50px;
-}
- .content .links a {
-	 display: block;
-	 margin: 10px 0;
-	 font-size: 15px;
-	 text-decoration: none;
-	 color: #333;
-}
- /* .content .links a:before {
-	 font-family: &#34;
-	FontAwesome&#34;
-	;
-	 content: &#34;
-	\f0c1&#34;
-	;
-	 font-size: 11px;
-	 padding-right: 10px;
-}
- .content .links a.location:before {
-	 content: &#34;
-	\f124&#34;
-	;
-} */
- .content .stats {
-	 display: flex;
-	 justify-content: space-between;
-	 text-align: center;
-	 margin-top: 30px;
-}
- .content .stats .num {
-	 font-size: 25px;
-	 letter-spacing: 2px;
-}
- .content .stats .text {
-	 color: #999;
-}
-</style>
+              <div class="row px-4">
+					
+					<div class="col-md-6" style="font-size: 14px;color:#5b5b5b;font-weight: bold;">
+						<ul>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> PHP</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> JavaScript</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> Laravel</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> Vue.js</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> AWS (EC2,S3,Route53,LB etc.)</li>
+						</ul>
+					</div>
+					<div class="col-md-6" style="font-size: 14px;color:#5b5b5b;font-weight: bold;">
+						<ul>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> Mysql</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> PostgreSQL</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> Design Pattern</li>
+							<li class="py-2"><i class="far fa-arrow-alt-circle-right" style="color:#ffc200"></i> Git</li>
+						</ul>
+					</div>
+			  </div>
+			  <!-- <hr> -->
+			  <!-- <p class="mb-4 py-3">Online Presense:</p> -->
+			  <p style="padding-top: 12px" class="">Online Presence:</p>
+			  <div class="row px-4">
+					
+					<div class="col-md-6" style="font-size: 14px;color:#5b5b5b;font-weight: bold;">
+						<ul>
+							<a style="text-decoration: none !important" target="_blank" href="https://github.com/Pial-Diu"><li class="py-2"><i class="fab fa-github"></i> GitHub</li></a>
+							<a style="text-decoration: none !important" target="_blank" href="https://gitlab.com/Mahady"><li class="py-2"><i class="fab fa-gitlab"></i> GitLab</li></a>
+						</ul>
+					</div>
+					<div class="col-md-6" style="font-size: 14px;color:#5b5b5b;font-weight: bold;">
+						<ul>
+							<a style="text-decoration: none !important" target="_blank" href="https://www.linkedin.com/in/mhpial/"><li class="py-2"><i class="fab fa-linkedin"></i> LinkedIn</li></a>
+							<a style="text-decoration: none !important" target="_blank" href="https://codeforces.com/profile/Pial"><li class="py-2"><i class="fas fa-code"></i> CodeForces</li></a>
+						</ul>
+					</div>
+			  </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+	<style>
+		 a, a:hover, a:focus, a:active {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		.imgctr {
+			/* display: inline-block; */
+			/* margin: 20px; */
+			/* border: 1px solid black; */
+			border-radius: 10px;
+			overflow: hidden; 
+		}
+
+
+		#profile-pic {
+			overflow: hidden;
+			filter: sepia(30%);
+			transition: 0.5s all ease-in-out;
+			display: block;
+		}
+		#profile-pic:hover {
+			filter: sepia(0%);
+			/* transform:scale(1.5); */
+			transform: scale(1.1);
+  transform-origin: 50% 50%;
+		}
+		
+	</style>
