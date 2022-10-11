@@ -32,6 +32,11 @@
                         <img src="/frontend/images/project/amujamu.png" class="img-fluid" alt="project image">
                         </div>
                     </div>
+                    <div class="item" style="width: 90%; padding-left:5%">
+                        <div class="project-info">
+                        <img src="/frontend/images/project/vroom.png" class="img-fluid" alt="project image">
+                        </div>
+                    </div>
 
                     <!-- <div class="item">
                         <div class="project-info">
