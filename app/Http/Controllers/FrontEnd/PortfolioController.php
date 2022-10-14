@@ -13,9 +13,18 @@ class PortfolioController extends Controller
     public function index()
     {
         try{
-            return view('frontend.portfolio');
+            return view('frontend.pages.portfolio');
         }catch (\Exception $e) {
             return $e;
+        }
+    }
+
+    public function gallery()
+    {
+        try{
+            return view('frontend.pages.gallery');
+        }catch (\Exception $e) {
+            return $e->getMessage();
         }
     }
 

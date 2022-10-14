@@ -11,27 +11,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
-                <!-- <li class="nav-item">
-                    <a href="#intro" class="nav-link"><span data-hover="Intro">Intro</span></a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a href="#about" class="nav-link"><span data-hover="About Me">About Me</span></a>
-                </li> -->
                 <li class="nav-item">
-                    <a href="#about-me" class="nav-link"><span data-hover="About Me">About Me</span></a>
+                    <a href="{{route('portfolio')}}" class="nav-link"><span data-hover="Back to Portfolio">Back to Portfolio</span></a>
                 </li>
-                <li class="nav-item">
-                    <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{route('gallery')}}" class="nav-link"><span data-hover="Gallery">Gallery</span></a>
-                </li>
+                
             </ul>
 
             <ul class="navbar-nav ml-lg-auto" onclick="colorMode()">

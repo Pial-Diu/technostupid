@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{ config('app.name') }}</title>
+    <title>{{ config('app.name') }} - @yield('title')</title>
 
     <link rel="stylesheet" href="/frontend/css/bootstrap.min.css">
     <link rel="stylesheet" href="/frontend/css/unicons.css">
@@ -20,7 +20,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="preload" href="http://davidwalsh.name/wp-content/themes/walshbook3/images/sprite.png" />
-
+    @yield('bottom-css')
   </head>
   <body>
 
@@ -31,23 +31,9 @@
 <div class="content">
 
     <!-- MENU -->
-   @include('frontend.includes.header')
-
-    <!-- ABOUT -->
    
-    @include('frontend.includes.intro')
 
-
-   @include('frontend.includes.about')
-    <!-- PROJECTS -->
-    
-    @include('frontend.includes.projects')
-
-    <!-- FEATURES -->
-    @include('frontend.includes.experience')
-
-    <!-- CONTACT -->
-    @include('frontend.includes.contact')
+    @yield('content')
 
     <!-- FOOTER -->
     @include('frontend.includes.footer')
@@ -60,7 +46,7 @@
     <script src="/frontend/js/owl.carousel.min.js"></script>
     <script src="/frontend/js/smoothscroll.js"></script>
     <script src="/frontend/js/custom.js"></script>
-
+    @yield('bottom-scripts')
   </body>
 
   <style>
