@@ -37,7 +37,7 @@
 
     <!-- FOOTER -->
     @include('frontend.includes.footer')
-    </div>
+  </div>
     <script src="/frontend/js/jquery-3.3.1.min.js"></script>
     <script src="/frontend/js/popper.min.js"></script>
     <script src="/frontend/js/bootstrap.min.js"></script>

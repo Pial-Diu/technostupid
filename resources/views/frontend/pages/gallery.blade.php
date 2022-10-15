@@ -33,7 +33,7 @@
 			transform: scale(1.1);
   transform-origin: 50% 50%;
 		}
-		
+
 	</style>
 @endsection
 
@@ -44,12 +44,24 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-cs5vRstvdBhVt5xFxjYtmbb3BF0fgVYwbBNsfAxFLGuRiRm/4PoKJvAt55KJtT8AvWOxDL4Xt/AVSE48geDjHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script type="text/javascript">
-      lightGallery(document.getElementById('lightgallery'), {
+      // lightGallery(document.getElementById('lightgallery'), {
+      //     plugins: [lgZoom, lgThumbnail],
+      //     licenseKey: 'your_license_key',
+      //     speed: 500,
+      //     // ... other settings
+      // });
+
+      lightGallery(document.getElementById('static-thumbnails'), {
+          animateThumb: true,
+          zoomFromOrigin: true,
+          allowMediaOverlap: true,
+          toggleThumb: true,
+          // controls: false,
           plugins: [lgZoom, lgThumbnail],
-          licenseKey: 'your_license_key',
           speed: 500,
-          // ... other settings
+          thumbnail: true,
       });
+      
   </script>
 
 @endsection
@@ -60,21 +72,15 @@
 
 <section class="contact py-5" id="about-me">
   <div class="container">
-<h2 class="text-centre">Things I've built for the web</h2>
+  <h2 class="text-centre">Things I've built for the web</h2>
     <div class="row">
-      
-    <div id="lightgallery">
-        <a href="/frontend/images/project/beedamall.png" data-lg-size="1600-2400">
-            <img alt="img1" src="/frontend/images/project/beedamall.png" />
-        </a>
-        <a href="/frontend/images/project/amujamu.png" data-lg-size="1024-800">
-            <img alt="img2" src="/frontend/images/project/amujamu.png" />
-        </a>
-        <a href="/frontend/images/project/vroom.png" data-lg-size="1024-800">
-            <img alt="img2" src="/frontend/images/project/vroom.png" />
-        </a>
-    </div>
-
+        <div id="static-thumbnails">
+          @foreach($images as $image)
+            <a href="{{$image['image']}}">
+                <img src="{{$image['image']}}" class="col-md-4"/>
+            </a>
+          @endforeach
+        </div>
     </div>
   </div>
 </section>
