@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-code"></i> TechnoStupid</a>
+        <a class="navbar-brand" href="{{route('portfolio')}}"><i class="fas fa-code"></i> TechnoStupid</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -28,6 +28,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{route('gallery')}}" class="nav-link"><span data-hover="Gallery">Gallery</span></a>
                 </li>
             </ul>
 

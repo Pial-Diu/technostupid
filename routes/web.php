@@ -14,8 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'FrontEnd\PortfolioController@index');
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(['namespace' => 'FrontEnd'], function () {
+    Route::get('/', 'PortfolioController@index')->name('portfolio');
+    Route::get('/gallery', 'PortfolioController@gallery')->name('gallery');
+});
