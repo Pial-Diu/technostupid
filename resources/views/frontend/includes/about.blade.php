@@ -47,7 +47,7 @@
 					
 					<div class="col-md-6" style="font-size: 14px;color:#5b5b5b;font-weight: bold;">
 						<ul>
-							<a style="text-decoration: none !important" target="_blank" href="https://github.com/Pial-Diu"><li class="py-2"><i class="fab fa-github"></i> GitHub</li></a>
+							<a style="text-decoration: none !important" target="_blank" href="https://github.com/techno-stupid"><li class="py-2"><i class="fab fa-github"></i> GitHub</li></a>
 							<a style="text-decoration: none !important" target="_blank" href="https://gitlab.com/Mahady"><li class="py-2"><i class="fab fa-gitlab"></i> GitLab</li></a>
 						</ul>
 					</div>
