@@ -1,7 +1,7 @@
 <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="intro">
     <div class="container">
         <div class="row">
-            
+
             <div class="col-lg-8 col-md-12 col-12 d-flex align-items-center">
                 <div class="about-text">
                     <small class="small-text">Welcome to <span class="mobile-block">the TechnoStupid Zone!</span></small>
@@ -15,7 +15,7 @@
                     </h1>
 
                     <p>I'm a full-stack web developer / Software Engineer based in Dhaka, Bangladesh specializing in building exceptional, high-quality websites and applications.</p>
-                    
+                    <p><a href="https://techno-stupid.github.io/">Github.io</></p>
                     <div class="custom-btn-group mt-4">
                         <a href="/doc/Md. Mahady_Hasan.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                         <a href="mailto:pial.coder@gmail.com" class="btn custom-btn custom-btn-bg custom-btn-link">Get in touch</a>
