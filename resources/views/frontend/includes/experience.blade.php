@@ -11,7 +11,7 @@
                                   <span>2022</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span>Sr. Software Engineer</span><small>Easital Technologies</small></h3>
+                                  <h3><span>Lead Software Engineer</span><small>Easital Technologies</small></h3>
                                   <p>Lead the Backend team building a super-app with millions of potential active users.</p>
                              </div>
                         </div>
@@ -35,7 +35,7 @@
                                 <p>Worked on real lift data intensive projects with thousands of active users. Started working with Vue.js alongside Laravel.</p>
                             </div>
                         </div>
-                        
+
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
                                 <span>2017</span>
@@ -72,7 +72,7 @@
                                 <p>My college life passed in the blink of an eye.</p>
                             </div>
                         </div>
-                        
+
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
                                 <span>2009</span>
@@ -85,7 +85,7 @@
 
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
